@@ -1,0 +1,14 @@
+body {
+  background: #d8b15c;
+}
+
+h1 {
+  color: #49660f;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+/*# sourceMappingURL=main.css.map */
