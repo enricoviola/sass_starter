@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 @-ms-viewport {
@@ -2862,6 +2862,7 @@ button.bg-dark:focus {
 
 .align-self-auto {
   -ms-flex-item-align: auto !important;
+      -ms-grid-row-align: auto !important;
       align-self: auto !important;
 }
 
@@ -2877,6 +2878,7 @@ button.bg-dark:focus {
 
 .align-self-center {
   -ms-flex-item-align: center !important;
+      -ms-grid-row-align: center !important;
       align-self: center !important;
 }
 
@@ -2887,6 +2889,7 @@ button.bg-dark:focus {
 
 .align-self-stretch {
   -ms-flex-item-align: stretch !important;
+      -ms-grid-row-align: stretch !important;
       align-self: stretch !important;
 }
 
@@ -3025,6 +3028,7 @@ button.bg-dark:focus {
   }
   .align-self-sm-auto {
     -ms-flex-item-align: auto !important;
+        -ms-grid-row-align: auto !important;
         align-self: auto !important;
   }
   .align-self-sm-start {
@@ -3037,6 +3041,7 @@ button.bg-dark:focus {
   }
   .align-self-sm-center {
     -ms-flex-item-align: center !important;
+        -ms-grid-row-align: center !important;
         align-self: center !important;
   }
   .align-self-sm-baseline {
@@ -3045,6 +3050,7 @@ button.bg-dark:focus {
   }
   .align-self-sm-stretch {
     -ms-flex-item-align: stretch !important;
+        -ms-grid-row-align: stretch !important;
         align-self: stretch !important;
   }
 }
@@ -3184,6 +3190,7 @@ button.bg-dark:focus {
   }
   .align-self-md-auto {
     -ms-flex-item-align: auto !important;
+        -ms-grid-row-align: auto !important;
         align-self: auto !important;
   }
   .align-self-md-start {
@@ -3196,6 +3203,7 @@ button.bg-dark:focus {
   }
   .align-self-md-center {
     -ms-flex-item-align: center !important;
+        -ms-grid-row-align: center !important;
         align-self: center !important;
   }
   .align-self-md-baseline {
@@ -3204,6 +3212,7 @@ button.bg-dark:focus {
   }
   .align-self-md-stretch {
     -ms-flex-item-align: stretch !important;
+        -ms-grid-row-align: stretch !important;
         align-self: stretch !important;
   }
 }
@@ -3343,6 +3352,7 @@ button.bg-dark:focus {
   }
   .align-self-lg-auto {
     -ms-flex-item-align: auto !important;
+        -ms-grid-row-align: auto !important;
         align-self: auto !important;
   }
   .align-self-lg-start {
@@ -3355,6 +3365,7 @@ button.bg-dark:focus {
   }
   .align-self-lg-center {
     -ms-flex-item-align: center !important;
+        -ms-grid-row-align: center !important;
         align-self: center !important;
   }
   .align-self-lg-baseline {
@@ -3363,6 +3374,7 @@ button.bg-dark:focus {
   }
   .align-self-lg-stretch {
     -ms-flex-item-align: stretch !important;
+        -ms-grid-row-align: stretch !important;
         align-self: stretch !important;
   }
 }
@@ -3502,6 +3514,7 @@ button.bg-dark:focus {
   }
   .align-self-xl-auto {
     -ms-flex-item-align: auto !important;
+        -ms-grid-row-align: auto !important;
         align-self: auto !important;
   }
   .align-self-xl-start {
@@ -3514,6 +3527,7 @@ button.bg-dark:focus {
   }
   .align-self-xl-center {
     -ms-flex-item-align: center !important;
+        -ms-grid-row-align: center !important;
         align-self: center !important;
   }
   .align-self-xl-baseline {
@@ -3522,6 +3536,7 @@ button.bg-dark:focus {
   }
   .align-self-xl-stretch {
     -ms-flex-item-align: stretch !important;
+        -ms-grid-row-align: stretch !important;
         align-self: stretch !important;
   }
 }
@@ -5358,6 +5373,7 @@ body {
 
 h1 {
   color: #49660f;
+  text-shadow: 4px 4px 2px white;
 }
 
 .container {
